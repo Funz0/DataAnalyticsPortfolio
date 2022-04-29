@@ -1,2 +1,5 @@
-# COVID-19_Data_Exploration
+# Data Analytics Portfolio
 
+## Contents
+* SQL Data Exploration
+* Tableau Data Visualization
