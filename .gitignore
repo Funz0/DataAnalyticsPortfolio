@@ -1,6 +1,4 @@
 
-*.csv
+data/*.csv
 .DS_Store
-SQL_Data_Exploration/data/covid-deaths.xlsx
-SQL_Data_Exploration/data/covid-vaccinations.xlsx
-SQL_Data_Exploration/data/owid-covid-data.xlsx
+data/*.xlsx
