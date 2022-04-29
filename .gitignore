@@ -4,3 +4,4 @@ data/*.xlsx
 *.xlsx
 *.csv
 .DS_Store
+Tableau_Data_Visualization/extra_queries(inprogress).sql
