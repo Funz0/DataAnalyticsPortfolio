@@ -1,5 +1,6 @@
 
 data/*.csv
-.DS_Store
 data/*.xlsx
 *.xlsx
+*.csv
+.DS_Store
