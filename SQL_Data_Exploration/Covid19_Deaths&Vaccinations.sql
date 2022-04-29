@@ -1,3 +1,11 @@
+/*
+COVID-19 Data Exploration
+
+The main purpose I hope to get out of this project is to create queries to then use 
+in Tableau for visualizations and future work on the data.
+
+Data collection date: 4/28/2022
+*/
 -- Beginning with looking at the data I have loaded and their attributes
 
 SELECT *
