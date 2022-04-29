@@ -141,9 +141,8 @@ FROM #percent_population_vaccinated
 
 
 -- Creating View to store data for future visualizations
-GO --Ensuring the correct view is created based on the CTE above
 
-CREATE VIEW percent_vaccinated AS
+CREATE VIEW percent_population_vaccinated AS
 SELECT dths.continent, dths.location, dths.date, dths.population, vacc.new_vaccinations,
 	SUM(CAST(vacc.new_vaccinations AS bigint)) OVER (PARTITION BY dths.location ORDER BY dths.location,
 	dths.date) AS rolling_vaccinations
