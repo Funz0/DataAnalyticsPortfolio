@@ -43,3 +43,5 @@ SELECT location, population, date, MAX(total_cases) AS highest_infection_count,
 FROM COVID19Project..[covid-deaths]
 GROUP BY location, population, date
 ORDER BY population_infected_percentage desc
+
+-- Note: fix location values and prevent income categories from storing 
